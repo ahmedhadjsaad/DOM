@@ -1,0 +1,86 @@
+    /* div {     
+    border: solid black 1px;
+} */
+* {
+    box-sizing: border-box;
+}
+.shopping-cart {
+  width: 900px;
+  height: 1000px;
+  margin: 80px auto;
+  background: #FFFFFF;
+  box-shadow: 1px 2px 3px 0px rgba(0,0,0,0.10);
+  border-radius: 6px;
+ 
+  display: flex;
+  flex-direction: column;
+}
+.item {
+    margin-top: 50px;
+    display: flex;
+    padding: 20px 30px;
+    height: 200px;
+}
+.buttons {
+    position: relative;
+    padding-top: 30px;
+    margin-right: 60px;
+}
+.delete-btn 
+.like-btn {
+    display: inline-block;
+    Cursor: pointer;
+}
+.delete-btn {
+    width: 18px;
+    height: 17px;
+}
+.like-btn {
+    position: absolute;
+    width: 60px;
+    height: 60px;
+    background-repeat: no-repeat;
+    background-size: 2900%;
+}
+.image {
+    margin-left: 80px;
+}
+.description {
+    margin-top: 0px;
+    margin-left: 200px;
+    font-size: 50%;
+    width: 300px;
+}
+.description span {
+    display: block;
+    font-size: 15px;
+    margin-top: 10px;
+}
+.quantity {
+    padding-top: 30px;
+    padding-left: 0px;
+    margin-left: 50px;
+    text-align: center;
+    width: 300px;
+}
+.total-price {
+    margin-left: 50px;
+    text-align: center;
+    color: #43484d ;
+    padding-top: 30px;
+    background-color: burlywood;
+    border-radius: 10px;
+    height: 40px;
+    width: 70px;
+    
+}
+.quantity input {
+    -webkit-appearance: none;
+    border: none;
+    text-align: center;
+    width: 32px;
+    font-size: 16px;
+    color: #43484D;
+    font-weight: 300;
+  }
+
